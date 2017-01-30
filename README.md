@@ -1,12 +1,12 @@
 # pytrader
 Basis for an automated trader written in Python
 
-Currently non-functional as IG have modified their REST API.
+Implements v1 of IG's REST API. No current plan is in place to move to v2 or higher.
 
 **In work.**
 
 ## TODO
-1. Fix base REST API client
+1. Fix base REST API client - DONE
 2. Implement position buying and selling functionality.
 
 

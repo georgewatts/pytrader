@@ -21,7 +21,7 @@ class IGBroker(object):
                 'Accept': 'application/json; charset=UTF-8',
                 'Content-Type': 'application/json; charset=UTF-8',
                 'X-IG-API-KEY': '4be4623e3ec7897f94549aff7b44d18202fa6e22',
-                'VERSION': 2
+                'VERSION': 1
               }
 
     # Body data for API session creation
@@ -89,10 +89,10 @@ class IGBroker(object):
         return self.__get_request(market)
 
     def browse_markets(self, node_id=0):
-        if not node_id:
-            return self.__get_request(self.market_nav)
-        else:
-            node = self.market_nav + node_id
+        # if not node_id:
+        #     return self.__get_request(self.market_nav)
+        # else:
+            node = self.market_nav + str(node_id)
             return self.__get_request(node)
 
     def create_open_position(self, currency_code, direction, epic, expiry, force_open, guaranteed_stop,

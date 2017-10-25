@@ -3,7 +3,7 @@
 
 Basic implementation of a FOREX market reader in Python.
 
-Implements lightstreamer to contact IG's API found [here](https://labs.ig.com). Also uses wxPython to manage the GUI interface.
+Implements lightstreamer to contact IG's API (version 1) found [here](https://labs.ig.com). Also uses wxPython to manage the GUI interface.
 
 **ONLY TESTED ON MAC OS X**
 

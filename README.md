@@ -14,9 +14,12 @@ Implements lightstreamer to contact IG's API found [here](https://labs.ig.com). 
 self.broker = IGBroker(username, password)
 ```
 to include your username and password registered with IG trading.
+
 3. Navigate to the directory and run:
 ```shell
 $ python main.py
 ```
 
 ## Screenshots
+![alt text](https://github.com/georgewatts/pytrader/blob/master/images/Browse%20Markets.png?raw=true "Browse Markets")
+![alt text](https://github.com/georgewatts/pytrader/blob/master/images/Live%20Markets.png?raw=true "Live Markets")

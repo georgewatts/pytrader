@@ -9,7 +9,7 @@ Implements lightstreamer to contact IG's API found [here](https://labs.ig.com). 
 
 ## Using pytrader
 1. Clone or download the repository
-2. Modify the following line in main.py:
+2. Modify the following line in `main.py`:
 ```python
 self.broker = IGBroker(username, password)
 ```
@@ -23,3 +23,6 @@ $ python main.py
 ## Screenshots
 ![alt text](https://github.com/georgewatts/pytrader/blob/master/images/Browse%20Markets.png?raw=true "Browse Markets")
 ![alt text](https://github.com/georgewatts/pytrader/blob/master/images/Live%20Markets.png?raw=true "Live Markets")
+
+## Acknowledgements
+The lightstreamer code originated from the [Lightstreamer github](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-python) complete with examples not limited to Python.

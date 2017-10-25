@@ -1,13 +1,22 @@
 # pytrader
-Basis for an automated trader written in Python
+**DEMO ONLY**
 
-Implements v1 of IG's REST API. No current plan is in place to move to v2 or higher.
+Basic implementation of a FOREX market reader in Python.
 
-**In work.**
+Implements lightstreamer to contact IG's API found [here](https://labs.ig.com). Also uses wxPython to manage the GUI interface.
 
-## TODO
-1. Fix base REST API client - DONE
-2. Implement position buying and selling functionality.
+**ONLY TESTED ON MAC OS X**
 
+## Using pytrader
+1. Clone or download the repository
+2. Modify the following line in main.py:
+```python
+self.broker = IGBroker(username, password)
+```
+to include your username and password registered with IG trading.
+3. Navigate to the directory and run:
+```shell
+$ python main.py
+```
 
-**NB**: You will need to enter your username and password in the main.py file in order to connect to the API
+## Screenshots
